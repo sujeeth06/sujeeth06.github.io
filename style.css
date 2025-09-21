@@ -167,9 +167,10 @@ nav ul li a:hover, nav ul li a.active {
 .hero-image {
     margin-bottom: 2rem;
 }
+/* MODIFIED: Increased width and height for the hero image */
 .hero-image img {
-    width: 150px;
-    height: 150px;
+    width: 250px; /* Increased size */
+    height: 250px; /* Increased size */
     border-radius: 50%;
     border: 3px solid var(--primary-color);
     object-fit: cover;
@@ -396,10 +397,17 @@ footer {
     .hero-text p {
         font-size: 1rem;
     }
-
+    /* MODIFIED: Ensure responsiveness for larger image on smaller screens if needed */
+    .hero-image img {
+        width: 180px; /* Adjust for smaller screens */
+        height: 180px; /* Adjust for smaller screens */
+    }
 }
+
 /* Custom Code to Make Profile Picture Bigger */
-.img-profile {
-  max-width: 200%; /* Adjust this value to make the image bigger or smaller */
-}
-
+/* The previous .img-profile rule was not targeted correctly.
+   The .hero-image img rule above now controls the size.
+   You can remove or comment out the .img-profile rule if it's no longer needed. */
+/* .img-profile {
+    max-width: 200%;
+} */
