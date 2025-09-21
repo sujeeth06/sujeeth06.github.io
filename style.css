@@ -396,4 +396,9 @@ footer {
     .hero-text p {
         font-size: 1rem;
     }
+
+}
+/* Custom Code to Make Profile Picture Bigger */
+.img-profile {
+  max-width: 50%; /* Adjust this value to make the image bigger or smaller */
 }
