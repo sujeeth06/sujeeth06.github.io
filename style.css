@@ -400,5 +400,6 @@ footer {
 }
 /* Custom Code to Make Profile Picture Bigger */
 .img-profile {
-  max-width: 50%; /* Adjust this value to make the image bigger or smaller */
+  max-width: 200%; /* Adjust this value to make the image bigger or smaller */
 }
+
